@@ -348,8 +348,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="6">
-    
+</div><div class="fragment" data-fragment-index="4">
+        
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -363,8 +363,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 </div>
 </div>
 </div>
-    </div><div class="fragment" data-fragment-index="7">
-    
+        </div><div class="fragment" data-fragment-index="4">
+        
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -378,7 +378,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 </div>
 </div>
 </div>
-    </div></section>
+        </div></section>
     </section><section>
     <section>
     
@@ -448,7 +448,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="slicing">slicing<a class="anchor-link" href="#slicing">&#182;</a></h3>
+<h3 id="Slicing">Slicing<a class="anchor-link" href="#Slicing">&#182;</a></h3>
 </div>
 </div>
 </div><div class="fragment" data-fragment-index="11">
@@ -618,8 +618,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="23">
-    
+</div><div class="fragment" data-fragment-index="21">
+        
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -633,7 +633,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 </div>
 </div>
 </div>
-    </div><div style=display:none>
+        </div><div style=display:none>
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -679,7 +679,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 </div>
 </div>
 </div>
-    </div><div style=display:none>
+    </div><div class="fragment" data-fragment-index="26">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -705,36 +705,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="IPython">IPython<a class="anchor-link" href="#IPython">&#182;</a></h3>
-<pre><code>$ ipython
-
-Python 2.7.8 (default, Nov 28 2014, 11:01:32) 
-Type "copyright", "credits" or "license" for more information.
-
-IPython 3.1.0 -- An enhanced Interactive Python.
-?         -&gt; Introduction and overview of IPython's features.
-%quickref -&gt; Quick reference.
-help      -&gt; Python's own help system.
-object?   -&gt; Details about 'object', use 'object??' for extra details.
-
-In [1]:</code></pre>
-
-</div>
-</div>
-</div></section>
-    </section><section>
-    <section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Loops">Loops<a class="anchor-link" href="#Loops">&#182;</a></h3>
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="29">
-    
+</div><div class="fragment" data-fragment-index="26">
+        
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
@@ -768,7 +743,62 @@ Miami
 </div>
 
 </div>
-    </div><div class="fragment" data-fragment-index="30">
+        </div><div class="fragment" data-fragment-index="26">
+        
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Notice that in Python, blocks are delimited by indentation. For example:</p>
+
+</div>
+</div>
+</div>
+        </div><div class="fragment" data-fragment-index="26">
+        
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[236]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">5</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">):</span>
+        <span class="k">print</span> <span class="n">i</span><span class="o">*</span><span class="n">j</span><span class="p">,</span>
+    <span class="k">print</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">----------&quot;</span>
+<span class="k">print</span> <span class="s">&quot;End&quot;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>0 0 0 0 0 
+----------
+5 6 7 8 9 
+----------
+10 12 14 16 18 
+----------
+15 18 21 24 27 
+----------
+20 24 28 32 36 
+----------
+End
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+        </div></section><section>
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -800,8 +830,7 @@ Miami has a population of 417 (thousands)
 </div>
 </div>
 
-</div>
-    </div><div class="fragment" data-fragment-index="31">
+</div><div class="fragment" data-fragment-index="32">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -852,7 +881,7 @@ Miami has a population of 417 (thousands)
 <h3 id="Conditional-statements">Conditional statements<a class="anchor-link" href="#Conditional-statements">&#182;</a></h3>
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="31">
+</div><div class="fragment" data-fragment-index="32">
         
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -888,7 +917,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-        </div><div class="fragment" data-fragment-index="34">
+        </div><div class="fragment" data-fragment-index="35">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -899,7 +928,7 @@ Miami has a population of 417 (thousands)
 </div>
 </div>
 </div>
-    </div><div class="fragment" data-fragment-index="34">
+    </div><div class="fragment" data-fragment-index="35">
         
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -941,7 +970,7 @@ Miami has a population of 417 (thousands)
 <h3 id="Functions">Functions<a class="anchor-link" href="#Functions">&#182;</a></h3>
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="37">
+</div><div class="fragment" data-fragment-index="38">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -972,7 +1001,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-    </div><div class="fragment" data-fragment-index="38">
+    </div><div class="fragment" data-fragment-index="39">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1006,7 +1035,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-    </div><div class="fragment" data-fragment-index="39">
+    </div><div class="fragment" data-fragment-index="40">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1025,7 +1054,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-    </div><div class="fragment" data-fragment-index="40">
+    </div><div class="fragment" data-fragment-index="41">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1056,7 +1085,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-    </div><div class="fragment" data-fragment-index="41">
+    </div><div class="fragment" data-fragment-index="42">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1087,7 +1116,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-    </div><div class="fragment" data-fragment-index="42">
+    </div><div class="fragment" data-fragment-index="43">
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1130,7 +1159,7 @@ Miami has a population of 417 (thousands)
 <h2 id="Some-functional-features">Some functional features<a class="anchor-link" href="#Some-functional-features">&#182;</a></h2><h4 id="Lambda-expressions">Lambda expressions<a class="anchor-link" href="#Lambda-expressions">&#182;</a></h4>
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="42">
+</div><div class="fragment" data-fragment-index="43">
         
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1145,7 +1174,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-        </div><div class="fragment" data-fragment-index="42">
+        </div><div class="fragment" data-fragment-index="43">
         
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1176,7 +1205,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-        </div><div class="fragment" data-fragment-index="46">
+        </div><div class="fragment" data-fragment-index="47">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -1187,7 +1216,7 @@ Miami has a population of 417 (thousands)
 </div>
 </div>
 </div>
-    </div><div class="fragment" data-fragment-index="46">
+    </div><div class="fragment" data-fragment-index="47">
         
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1218,7 +1247,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-        </div><div class="fragment" data-fragment-index="48">
+        </div><div class="fragment" data-fragment-index="49">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -1229,7 +1258,7 @@ Miami has a population of 417 (thousands)
 </div>
 </div>
 </div>
-    </div><div class="fragment" data-fragment-index="48">
+    </div><div class="fragment" data-fragment-index="49">
         
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1260,9 +1289,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-        </div></section>
-    </section><section>
-    <section>
+        </div></section><section>
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -1272,7 +1299,7 @@ Miami has a population of 417 (thousands)
 <h3 id="List-comprehension">List comprehension<a class="anchor-link" href="#List-comprehension">&#182;</a></h3>
 </div>
 </div>
-</div><div class="fragment" data-fragment-index="48">
+</div><div class="fragment" data-fragment-index="49">
         
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1301,7 +1328,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-        </div><div class="fragment" data-fragment-index="48">
+        </div><div class="fragment" data-fragment-index="49">
         
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1332,7 +1359,7 @@ Miami has a population of 417 (thousands)
 </div>
 
 </div>
-        </div><div class="fragment" data-fragment-index="48">
+        </div><div class="fragment" data-fragment-index="49">
         
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1372,6 +1399,143 @@ Miami has a population of 417 (thousands)
 
 </div>
 
+</div>
+</div>
+
+</div>
+        </div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Reading-files">Reading files<a class="anchor-link" href="#Reading-files">&#182;</a></h3>
+</div>
+</div>
+</div><div class="fragment" data-fragment-index="49">
+        
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[231]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="n">raw_data</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;./data/iris.txt&quot;</span><span class="p">,</span><span class="s">&quot;r&quot;</span><span class="p">)</span>
+<span class="n">rows</span> <span class="o">=</span> <span class="p">[</span> <span class="n">i</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&#39;,&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">raw_data</span><span class="p">]</span>
+<span class="n">rows</span><span class="p">[:</span><span class="mi">3</span><span class="p">]</span>
+<span class="n">raw_data</span><span class="o">.</span><span class="n">seek</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+        </div><div class="fragment" data-fragment-index="49">
+        
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[217]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="n">data</span> <span class="o">=</span> <span class="p">[[</span><span class="nb">float</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">if</span> <span class="s">&quot;.&quot;</span> <span class="ow">in</span> <span class="n">i</span> <span class="k">else</span> <span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">row</span><span class="p">]</span> <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">rows</span><span class="p">]</span>
+<span class="n">data</span><span class="p">[:</span><span class="mi">4</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[217]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[[5.1, 3.5, 1.4, 0.2, &apos;Iris-setosa\n&apos;],
+ [4.9, 3.0, 1.4, 0.2, &apos;Iris-setosa\n&apos;],
+ [4.7, 3.2, 1.3, 0.2, &apos;Iris-setosa\n&apos;],
+ [4.6, 3.1, 1.5, 0.2, &apos;Iris-setosa\n&apos;]]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+        </div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="One-liner">One-liner<a class="anchor-link" href="#One-liner">&#182;</a></h3>
+</div>
+</div>
+</div><div class="fragment" data-fragment-index="49">
+        
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[232]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span class="n">data</span> <span class="o">=</span> <span class="p">[[</span><span class="nb">float</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="k">if</span> <span class="s">&quot;.&quot;</span> <span class="ow">in</span> <span class="n">i</span> <span class="k">else</span> <span class="n">i</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">row</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">&quot;,&quot;</span><span class="p">)]</span> <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">raw_data</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+        </div><div class="fragment" data-fragment-index="49">
+        
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="./img/doge.png" alt="doge"></p>
+
+</div>
+</div>
+</div>
+        </div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Practice">Practice<a class="anchor-link" href="#Practice">&#182;</a></h2><h4 id="1---Write-a-read_csv-function-that-receives-a-filename-and-a-delimiter-and-return-a-2D-list-with-the-data-using:">1 - Write a <code>read_csv</code> function that receives a filename and a delimiter and return a 2D list with the data using:<a class="anchor-link" href="#1---Write-a-read_csv-function-that-receives-a-filename-and-a-delimiter-and-return-a-2D-list-with-the-data-using:">&#182;</a></h4>
+<pre><code>1.1 For loops
+1.2 List comprehesion
+</code></pre>
+<div class="highlight"><pre><span class="k">def</span> <span class="nf">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span><span class="n">delimiter</span><span class="o">=</span><span class="s">&#39;,&#39;</span><span class="p">):</span>
+    <span class="o">...</span>
+    <span class="k">return</span> <span class="n">data</span>
+</pre></div>
+
+</div>
+</div>
+</div><div class="fragment" data-fragment-index="49">
+        
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre> 
+</pre></div>
+
+</div>
 </div>
 </div>
 
